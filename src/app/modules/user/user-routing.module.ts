@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
 import {UserDetailsComponent, UsersComponent} from "./components";
-import {UserResolveService} from "./services";
+import {UserResolveService} from "./user-services";
 
 const routes: Routes = [{
   path: '', component: UsersComponent,

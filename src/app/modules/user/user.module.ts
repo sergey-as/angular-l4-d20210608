@@ -4,7 +4,7 @@ import {HttpClientModule} from "@angular/common/http";
 
 import {UserRoutingModule} from './user-routing.module';
 import {UserComponent, UserDetailsComponent, UsersComponent} from './components';
-import {UserResolveService, UserService} from "./services";
+import {UserResolveService, UserService} from "./user-services";
 
 
 @NgModule({

@@ -1,1 +1,7 @@
-<p>comments works!</p>
+<hr>
+{{chosenComment?.body}}
+<hr>
+<app-comment
+  *ngFor="let c of comments"
+  [comment]="c"
+  (commentLift)="xxx($event)"></app-comment>
