@@ -1,1 +1,8 @@
-<p>users works!</p>
+<div *ngFor="let u of users">
+  <!--  <app-user *ngIf="!!!(u.id%2)" [user]="u"></app-user>-->
+  <app-user [user]="u"></app-user>
+</div>
+
+<hr>
+<router-outlet></router-outlet>
+<hr>
